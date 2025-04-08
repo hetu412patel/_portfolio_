@@ -112,9 +112,9 @@ for (let i = 0; i < filterBtn.length; i++) {
 }
 
 // contact form variables
-const public_key = "ll7q48ur66KMBZvB1"
-const template_Id = "template_agevovl"
-const service_Id = "service_u5ajm5c"
+const public_key = "ADD YOUR OWN PUBLIC_KEY"
+const template_Id = "ADD YOUR OWN TEMPLATE_ID"
+const service_Id = "ADD YOUR OWN SERVICE_ID"
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.querySelector("[data-form]");
   const formInputs = document.querySelectorAll("[data-form-input]");
