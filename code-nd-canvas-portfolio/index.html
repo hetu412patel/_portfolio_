@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data-Driven Developer</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Hi, I'm Hetakshi Patel — a passionate Full Stack Developer. Explore my portfolio to see my work in React, Node.js, and modern web development.">
+  <meta name="keywords" content="Full Stack Developer, Web Developer Portfolio, HTML, CSS, JavaScript, React, Node.js, MERN">
+  <meta name="author" content="Hetakshi Patel">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph Tags (for social sharing) -->
+  <meta property="og:title" content="Hetakshi Patel | Full stack Developer Portfolio">
+  <meta property="og:description" content="Discover web projects built using modern tools and technologies.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://code-nd-canvas-portfolio.netlify.app">
+
+  <link rel="canonical" href="https://code-nd-canvas-portfolio.netlify.app" />
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/image.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-2.png" alt="Hetakshi Patel" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Hetakshi Patel">Hetakshi Patel</h1>
+
+          <p class="title">Full stack Developer - MERN</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:hetaxip412@gmail.com" class="contact-link">hetaxip412@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+916356112533" class="contact-link">+91 6356112533</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">4 December, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Gujarat, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/hetu412patel?tab=repositories" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <!-- <li class="social-item">
+            <a href="https://wa.me/6356112533" class="social-link" target="_blank">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li> -->
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/hetakshi-patel-b77166219/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://in.pinterest.com/Hetakshi_Mandala_Art/_created/" class="social-link" target="_blank">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a versatile Full Stack Developer with expertise in web design, development, and data analytics. I build responsive, user-friendly web applications using the MERN stack, ensuring secure APIs and efficient database management with MongoDB and Sequelize. I have experience integrating third-party services like Zoho Books for finance management and Plaid for payment solutions. Additionally, I analyze complex data to create clear, impactful visual reports.
+          </p>
+
+          <p>
+            Alongside coding, I'm a creative mandala artist and content creator, bringing a unique blend of technical skills and artistic insight. I aim to deliver digital experiences that are both functional and visually appealing, helping businesses connect with their audience effectively.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dashboard.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data analytics</h4>
+
+                <p class="service-item-text">
+                  Delivering insightful and high-quality data analysis with precision and professionalism.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-art.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mandala Art</h4>
+
+                <p class="service-item-text">
+                  Bringing harmony to art with intricately crafted, modern Mandala designs.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-content.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content Creator</h4>
+
+                <p class="service-item-text">
+                  Crafting captivating content with a modern, professional touch.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Gujarat Technological University, Ahmedabad </h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                Bachelor’s degree in Information Technology with a 9.16 CGPA, specializing in software development and data management.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Amity School, Bharuch</h4>
+
+              <span>2018 — 2019</span>
+
+              <p class="timeline-text">
+                Higher secondary education with a 78.6% score, focusing on foundational concepts in science and technology.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Amity School, Bharuch</h4>
+
+              <span>2016 — 2017</span>
+
+              <p class="timeline-text">
+                Senior Secondary education with an 88.8% score, demonstrating strong academic performance.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Associate Software Engineer</h4>
+
+              <span>January 2023 – July 2024</span>
+
+              <p class="timeline-text">
+                As a MERN stack developer, I craft scalable, high-performance web applications with MongoDB, Express.js, React, and Node.js. I architect efficient databases using MongoDB & Sequelize, build dynamic front-end interfaces with React, and implement robust RESTful APIs with Express and Node.js. My expertise extends to seamless payment integrations with Plaid, automating financial workflows via Zoho Books, and documenting APIs with SwaggerUI for improved collaboration. Passionate about solving complex development challenges, I ensure optimized performance, security, and user-centric experiences.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>June 2022 — July 2022</span>
+
+              <p class="timeline-text">
+                I create visually stunning, user-friendly web pages using HTML, CSS, and JavaScript, ensuring responsiveness and interactivity with the Bootstrap framework. With expertise in modern UI trends like glassmorphism, I craft intuitive designs that enhance user experience. Continuously learning and applying industry best practices, I focus on building high-performing, accessible, and engaging web interfaces.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">My Achievements</h3>
+          </div>
+
+          <ul class="timeline-list">
+
+            <li class="timeline-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Completed Deloitte job simulation involving data analysis and
+                  forensic technology with Tableau and excel </h5>
+              </div>
+
+            </li>
+            <li class="timeline-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Earned the HackerRank Gold Badge in SQL, demonstrating strong proficiency in database management and query optimization</h5>
+              </div>
+
+            </li>
+            <li class="timeline-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development and Digital Marketing Certification at  TechSaksham (A joint CSR initiative
+                  of Microsoft & SAP)</h5>
+              </div>
+
+            </li>
+            <li class="timeline-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Virtual Internship certification in Data Visualization by TATA Consultancy Services(Forage) </h5>
+              </div>
+
+            </li>
+            <li class="timeline-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AI: Transformative Learning Internship programme at TechSaksham (A
+                  joint CSR initiative of Microsoft & SAP)</h5>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development(MERN Stack)</h5>
+                <data value="65">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Analytics</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AI/ML</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Content creation</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MS Office</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Analytical Dashboard</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI/ML</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Analytical Dashboard</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI/ML</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <!-- web design -->
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://code-nd-canvas-assistance.netlify.app/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.jpg" alt="voice-assistance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Voice-Assistance</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://code-nd-canvas-weather.netlify.app/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="weather-app" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Weather App</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://code-nd-canvas-clock.netlify.app/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.jpg" alt="clock" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Clock</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://code-nd-canvas-gallery.netlify.app/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-10.jpg" alt="Gallery slider" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Gallery Slider</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://code-nd-canvas-parallax.netlify.app/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-12.png" alt="parallaxScrolling" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Parallax</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <!-- ai/ml project -->
+
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
+              <a href="https://github.com/hetu412patel/Spam-mail-classification-using-ML" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="Spam mail Classification" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Spam mail Classification</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+
+            <!-- Analytical dashboard -->
+
+            <li class="project-item  active" data-filter-item data-category="analytical dashboard">
+              <a href="https://public.tableau.com/views/AmazonSalesReport_17245168958960/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="e-commerce" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E-commerce</h3>
+
+                <p class="project-category">Analytical Dashboard</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="analytical dashboard">
+              <a href="https://app.powerbi.com/reportEmbed?reportId=57748f9a-cf9f-4845-b11c-e4a623c40b82&autoAuth=true&ctid=98e9d57f-f8f8-4204-9077-eeaf5f519013" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="sales" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sales</h3>
+
+                <p class="project-category">Analytical Dashboard</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188319.7477606849!2d72.86647243874913!3d21.71002583129588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be02e49f8f7d8c1%3A0x5a2950b8af6eaf5f!2sBharuch%2C%20Gujarat%2C%20India!5e0!3m2!1sen!2sin!4v1710678923456!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+            <p id="form-status"></p>
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - email.js link
+  -->
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
